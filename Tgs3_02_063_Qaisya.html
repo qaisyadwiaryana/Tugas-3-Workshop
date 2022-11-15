@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tugas 3</title>
+        <style>
+        *{
+        margin: 0;
+        padding: 0;
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: "Roboto slab";
+            background-color: #b7d7e8;
+        }
+
+        h1,a,p,h2,h3,li{
+            font-style: none;
+            list-style: none;
+        }
+        .container{
+            padding: 1px 50px;
+        }
+        header{
+            width: 100%;
+            height: 71px;
+            border-bottom: 2.5px solid #859ed18f;
+            background-color: rgba(245, 245, 245, 0.7);
+            position: fixed;
+            top: 0;
+            z-index: 10;
+        }
+        .header-right a{
+            text-decoration: none;
+            color: #254A99;
+        }
+        .header-right li{
+            float: left;
+            padding-left: 55px;
+            line-height: 71px;
+            font-size: 20px;
+            font-weight: 500;
+            
+        }
+        .header-right a:hover{
+            color: #FFD40D;
+            transition: all 0.3s;
+        }
+        .intro{
+        height: 550px;
+        }
+        .intro h2{
+        margin-top: 210px;
+        color: #254A99;
+        font-size: 33px;
+        font-weight: 500;
+        }
+        .intro h1{
+        color: #12254d;
+        font-size: 70px;
+        margin-bottom: 11px;
+        margin-top: 12px;
+        }
+        .intro p{
+        font-size: 16px;
+        color: black;
+        margin-bottom: 3px;
+        text-align: left;
+         }
+        .intro img{
+        float: right;
+        position: relative;
+        top: -340px;
+        height: 493px;
+        }
+        .profile{
+        height: 823px;
+        background-color: #26499A;
+        }
+        .contents-profile{
+            display: flex;
+            flex-direction: row;
+        }
+        .info-cv h2{
+            font-size: 46px;
+            margin-top: 175px;
+            margin-bottom: 42px;
+        }
+        .info-cv p{
+            padding-top: 3px;
+            font-size: 21px;
+        }
+        .info-cv h2,p {
+            width: 600px;
+            text-align: center;
+            color: white;
+        }
+        nav{
+            margin-top: 3%;
+            margin-left: 43%;
+            overflow: hidden;
+            background-color: white;
+            width: 100px;
+        }
+        nav a{
+            display: block;
+            padding: 20px;
+            color: #12254d;
+        }
+        nav a:hover{
+            background-color:#859ed18f;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="header-right">
+                    <ul>
+                       <li>
+                            <a href="#intro">Home</a>
+                        </li>
+                        <li>
+                            <a href="#profile">Profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+        <div class="intro" id="intro" >
+            <div class="container">
+                <h2>HAI</h2>
+                <h1>I'M Qaisya</h1>
+                <p>I am a student at the Institut Teknologi Sumatera</p>
+                <p>I'm interested in web design</p>
+                <img src="foto5.png">
+            </div>
+        </div>
+        
+        </main>
+            <footer>
+                <div class="profile" id="profile">
+                    <div class="container">
+                        <div class="contents-profile">
+                            <div class="info-cv">
+                                <h2>Hi, Nice to meet you.</h2>
+                                <p>My name is Qaisya Dwi Aryana</p>
+                                <p>I'm from Lampung, Indonesia</p>
+                                <p>I'm currently focusing on deepening the web design</p>
+                                <p>If you want to know more about me</p>
+                                <p>You can see in CV</p>
+                                <nav>
+                                    <a href="cv.html">My CV</a>
+                                </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </body>
+</html>
